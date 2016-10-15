@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-   <php> if($_SERVER["HTTPS"] != "on")
+   <php> if($_SERVER["HTTP"] != "on")
 {
-    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    header("Location: http://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
     exit();
        } </php>
     <meta charset="utf-8">
