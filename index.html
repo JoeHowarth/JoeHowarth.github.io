@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+   <php> if($_SERVER["HTTPS"] != "on")
+{
+    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    exit();
+       } </php>
     <meta charset="utf-8">
     <title>Spontanious Advisor</title>
     <link href="styles/main.css" type="text/css" rel="stylesheet">
