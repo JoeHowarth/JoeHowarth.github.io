@@ -10,9 +10,9 @@
   <title>Overview of all pages with the tag #Design Doc - Joe Howarth</title>
   <meta property="og:title" content="Overview of all pages with the tag #Design Doc" />
   <meta name="twitter:title" content="Overview of all pages with the tag #Design Doc" />
-  <meta name="description" content="Overview of all pages with the tag #Design Doc, such as: World Building Module">
-  <meta property="og:description" content="Overview of all pages with the tag #Design Doc, such as: World Building Module">
-  <meta name="twitter:description" content="Overview of all pages with the tag #Design Doc, such as: World Building Module">
+  <meta name="description" content="Overview of all pages with the tag #Design Doc, such as: Architecture">
+  <meta property="og:description" content="Overview of all pages with the tag #Design Doc, such as: Architecture">
+  <meta name="twitter:description" content="Overview of all pages with the tag #Design Doc, such as: Architecture">
   <meta name="author" content="Joe Howarth"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -86,14 +86,10 @@
         
           
             <li class="navlinks-container">
-              <a class="navlinks-parent">Samples</a>
+              <a class="navlinks-parent">Historical Simulation</a>
               <div class="navlinks-children">
                 
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                  <a href="/post/PopulationDesign"></a>
                 
               </div>
             </li>
@@ -224,6 +220,95 @@
         <div class="posts-list">
           
             <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/architecture/">
+                <h2 class="post-title">Architecture</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 18, 2019
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;450&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)
+                  <a href="https://joehowarth.github.io/posts/architecture/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/terraingenerator/">
+                <h2 class="post-title">Terrain Generator Module</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 16, 2019
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;724&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Terrain Generator Module This module will produce the base maps that the rest of the world is built on top of. This module should be standalone and therefore easily runnable and configurable without the rest of the project. This has several advantages: 1. Faster compilation times =&gt; faster iteration feedback loop 2. Ability to generate many candidate maps and select the most interesting ones to build a full world with.
+                  <a href="https://joehowarth.github.io/posts/terraingenerator/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
               <a href="https://joehowarth.github.io/posts/worldbuilding/">
                 <h2 class="post-title">World Building Module</h2>
 
@@ -261,6 +346,53 @@
                     <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
                   
                     <a href="https://joehowarth.github.io/tags/module/">Module</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/populationdesign/">
+                <h2 class="post-title">Designing the Population System</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;956&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
+For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&rsquo;t work for the nameless masses.
+                  <a href="https://joehowarth.github.io/posts/populationdesign/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/thoughts/">thoughts</a>&nbsp;
                   
                     <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
                   

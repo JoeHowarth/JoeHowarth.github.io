@@ -10,9 +10,9 @@
   <title>Overview of all pages with the tag #Population Simulation - Joe Howarth</title>
   <meta property="og:title" content="Overview of all pages with the tag #Population Simulation" />
   <meta name="twitter:title" content="Overview of all pages with the tag #Population Simulation" />
-  <meta name="description" content="Overview of all pages with the tag #Population Simulation, such as: World Building Module">
-  <meta property="og:description" content="Overview of all pages with the tag #Population Simulation, such as: World Building Module">
-  <meta name="twitter:description" content="Overview of all pages with the tag #Population Simulation, such as: World Building Module">
+  <meta name="description" content="Overview of all pages with the tag #Population Simulation, such as: Challenging A Player">
+  <meta property="og:description" content="Overview of all pages with the tag #Population Simulation, such as: Challenging A Player">
+  <meta name="twitter:description" content="Overview of all pages with the tag #Population Simulation, such as: Challenging A Player">
   <meta name="author" content="Joe Howarth"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -86,14 +86,10 @@
         
           
             <li class="navlinks-container">
-              <a class="navlinks-parent">Samples</a>
+              <a class="navlinks-parent">Historical Simulation</a>
               <div class="navlinks-children">
                 
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                  <a href="/post/PopulationDesign"></a>
                 
               </div>
             </li>
@@ -224,6 +220,140 @@
         <div class="posts-list">
           
             <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/challengingtheplayer/">
+                <h2 class="post-title">Challenging A Player</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 15, 2019
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;291&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  How to challenge a Player Without extensive Reinforcement Learning, the AIs in the simulation cannot rival the long-term planning and strategic thinking of a thoughtful human. Most AI&rsquo;s will be simple heuristic agents that respond to their environment in an attempt to maximize their particular objectives (reward function). These agents will be incapable of strategic thinking.
+So how can the player be challenged in such an environment? Here are a few avenues:
+                  <a href="https://joehowarth.github.io/posts/challengingtheplayer/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/thoughts/">thoughts</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/architecture/">
+                <h2 class="post-title">Architecture</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 18, 2019
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;450&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)
+                  <a href="https://joehowarth.github.io/posts/architecture/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/terraingenerator/">
+                <h2 class="post-title">Terrain Generator Module</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 16, 2019
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;724&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Terrain Generator Module This module will produce the base maps that the rest of the world is built on top of. This module should be standalone and therefore easily runnable and configurable without the rest of the project. This has several advantages: 1. Faster compilation times =&gt; faster iteration feedback loop 2. Ability to generate many candidate maps and select the most interesting ones to build a full world with.
+                  <a href="https://joehowarth.github.io/posts/terraingenerator/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
               <a href="https://joehowarth.github.io/posts/worldbuilding/">
                 <h2 class="post-title">World Building Module</h2>
 
@@ -261,6 +391,144 @@
                     <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
                   
                     <a href="https://joehowarth.github.io/tags/module/">Module</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/map-generation/">
+                <h2 class="post-title">Map Generation</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 1, 2018
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;145&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Part 2 in Historical Simulation series  Societies and peoples cannot exist without a world&hellip; so let&rsquo;s build one!
+When starting this project, we could either use Earth as the source of geography and climate, or attempt to create plausible alternatives. Using Earth brings with it all the expectations from history about what should happen where and when, even if much of history was based not on inexorable drives, but chance.
+                  <a href="https://joehowarth.github.io/posts/map-generation/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/old/">old</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/thoughts/">thoughts</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/dynamic-grand-strategy/">
+                <h2 class="post-title">Dynamic Grand Strategy</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 11, 2018
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;245&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders&rsquo; intricasy and humanity. Victoria, through representing and tying populations&rsquo; plight or prosperity to events in the world abroad.
+                  <a href="https://joehowarth.github.io/posts/dynamic-grand-strategy/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/thoughts/">thoughts</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://joehowarth.github.io/posts/populationdesign/">
+                <h2 class="post-title">Designing the Population System</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;956&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
+For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&rsquo;t work for the nameless masses.
+                  <a href="https://joehowarth.github.io/posts/populationdesign/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+                  
+                    <a href="https://joehowarth.github.io/tags/thoughts/">thoughts</a>&nbsp;
                   
                     <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
                   

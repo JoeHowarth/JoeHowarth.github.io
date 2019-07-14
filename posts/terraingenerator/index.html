@@ -67,7 +67,7 @@
   "datePublished" : "2019-04-16T00:00:00",
   "dateModified" : "2019-04-16T00:00:00",
   "image" : "https:\/\/joehowarth.github.io\/img\/avatar.png",
-  "keywords" : [ "" ],
+  "keywords" : [ "Population Simulation, Design Doc" ],
   "mainEntityOfPage" : "https:\/\/joehowarth.github.io\/posts\/terraingenerator\/",
   "publisher" : {
     "@type": "Organization",
@@ -136,14 +136,10 @@
         
           
             <li class="navlinks-container">
-              <a class="navlinks-parent">Samples</a>
+              <a class="navlinks-parent">Historical Simulation</a>
               <div class="navlinks-children">
                 
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                  <a href="/post/PopulationDesign"></a>
                 
               </div>
             </li>
@@ -309,8 +305,8 @@ Currently written in Javascript, the current client grew out of the map generato
 that initially allowed the easiest way to visualize the output directly without networking
 infrastructure.</p>
 
-<p>The current map generator is heavily inspired by Martin O&rsquo;Leary&rsquo;s Polygonal <a href="Amit Patel http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation">Fantasy Map Generator</a>.
-It computational geometry techniques and data structures (<a href="MapGen_README.md">more detail</a>) that make for good regional scale maps
+<p>The current map generator is heavily inspired by Martin O&rsquo;Leary&rsquo;s Polygonal <a href="http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation">Fantasy Map Generator</a>.
+It computational geometry techniques and data structures (<a href="posts/MapGen_README.md">more detail</a>) that make for good regional scale maps
 with plausible erosion and water flux, but the random hill placement does not scale well beyond
 ~500x500 km maps. Additionally, while the use of irregular triangles makes for a non-uniform and thus
 organic looking map, it also significantly complicates many implementations.</p>
@@ -364,7 +360,7 @@ to the non-uniform Delaunay triangulation strategy.</p>
 <h3 id="usage">Usage</h3>
 
 <p>The output of <strong>stage II</strong> should be saved to disk and loadable by the
-<a href="WorldBuilding.md">World Building</a> module.</p>
+<a href="posts/WorldBuilding.md">World Building</a> module.</p>
 
 <p>This whole module should be a separate runnable CLI process to facilitate fast compile iteration
 (If this is JS based this is trivially true). This also means that many maps can be generated and
@@ -372,6 +368,14 @@ only the promising ones then undergo World Building, this is a bit of a cop out 
 map has to be good, just some.</p>
 
 
+        
+          <div class="blog-tags">
+            
+              <a href="https://joehowarth.github.io/tags/population-simulation/">Population Simulation</a>&nbsp;
+            
+              <a href="https://joehowarth.github.io/tags/design-doc/">Design Doc</a>&nbsp;
+            
+          </div>
         
 
         
@@ -449,7 +453,7 @@ map has to be good, just some.</p>
           
           
             <li class="next">
-              <a href="https://joehowarth.github.io/posts/challengingtheplayer/" data-toggle="tooltip" data-placement="top" title="Challenging A Player">Next Post &rarr;</a>
+              <a href="https://joehowarth.github.io/posts/architecture/" data-toggle="tooltip" data-placement="top" title="Architecture">Next Post &rarr;</a>
             </li>
           
         </ul>

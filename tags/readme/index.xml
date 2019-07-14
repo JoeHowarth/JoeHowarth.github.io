@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>readme on Joe Howarth</title>
+    <link>https://joehowarth.github.io/tags/readme/</link>
+    <description>Recent content in readme on Joe Howarth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
+    <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
+    <lastBuildDate>Thu, 01 Nov 2018 16:29:11 -0400</lastBuildDate>
+    
+	<atom:link href="https://joehowarth.github.io/tags/readme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Map Generation Project</title>
+      <link>https://joehowarth.github.io/posts/mapgen_readme/</link>
+      <pubDate>Thu, 01 Nov 2018 16:29:11 -0400</pubDate>
+      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
+      <guid>https://joehowarth.github.io/posts/mapgen_readme/</guid>
+      <description>Map Generation Project By Joe Howarth Purpose This project seeks to procedurally create plausible geography and display it as a map. The generator will be used for creating the starting conditions in a historical population dynamics simulation.
+How to Run npm i npm run serve  Methodology Unlike many map and terrain generators, this project does not use noise as the fundamental building block. Instead, it uses a Delaunay triangulation over semi-random points, then combines elevations from several hill, mountain, basin and slope functions.</description>
+    </item>
+    
+  </channel>
+</rss>
