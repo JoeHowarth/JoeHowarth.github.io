@@ -1,5 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Joe Howarth"
-theme = "tale"
-pygmentsCodeFencesGuessSyntax = true
