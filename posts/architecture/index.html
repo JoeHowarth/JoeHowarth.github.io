@@ -7,12 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Dynamic Grand Strategy - Joe Howarth</title>
-  <meta property="og:title" content="Dynamic Grand Strategy" />
-  <meta name="twitter:title" content="Dynamic Grand Strategy" />
-  <meta name="description" content="Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders&rsquo; intricasy and humanity. Victoria, through representing and tying populations&rsquo; plight or prosperity to events in the world abroad.">
-  <meta property="og:description" content="Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders&rsquo; intricasy and humanity. Victoria, through representing and tying populations&rsquo; plight or prosperity to events in the world abroad.">
-  <meta name="twitter:description" content="Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while …">
+  <title>Architecture - Joe Howarth</title>
+  <meta property="og:title" content="Architecture" />
+  <meta name="twitter:title" content="Architecture" />
+  <meta name="description" content="Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)">
+  <meta property="og:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)">
+  <meta name="twitter:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map …">
   <meta name="author" content="Joe Howarth"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -48,8 +51,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/joehowarth.github.io\/posts\/dynamic-grand-strategy\/",
-          "name": "Dynamic grand strategy"
+          "@id": "https:\/\/joehowarth.github.io\/posts\/architecture\/",
+          "name": "Architecture"
         }
     }]
 }
@@ -60,15 +63,15 @@
   "author": {
     "name" : "Joe Howarth"
   },
-  "headline": "Dynamic Grand Strategy",
-  "description" : "Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders\x26rsquo; intricasy and humanity. Victoria, through representing and tying populations\x26rsquo; plight or prosperity to events in the world abroad.",
+  "headline": "Architecture",
+  "description" : "Architecture High level overview of each module\x26rsquo;s purpose and function.\nModules  Terrain Generation World Building \/ State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then \x26lsquo;up-sample\x26rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, \x26hellip;)",
   "inLanguage" : "en",
-  "wordCount":  245 ,
-  "datePublished" : "2018-11-01T16:29:11",
-  "dateModified" : "2018-11-01T16:29:11",
+  "wordCount":  450 ,
+  "datePublished" : "2019-04-16T00:00:00",
+  "dateModified" : "2019-04-16T00:00:00",
   "image" : "https:\/\/joehowarth.github.io\/img\/avatar.png",
   "keywords" : [ "" ],
-  "mainEntityOfPage" : "https:\/\/joehowarth.github.io\/posts\/dynamic-grand-strategy\/",
+  "mainEntityOfPage" : "https:\/\/joehowarth.github.io\/posts\/architecture\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/joehowarth.github.io",
@@ -82,22 +85,24 @@
 }
 </script>
 
-<meta property="og:title" content="Dynamic Grand Strategy" />
-<meta property="og:description" content="Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders&rsquo; intricasy and humanity. Victoria, through representing and tying populations&rsquo; plight or prosperity to events in the world abroad.">
+<meta property="og:title" content="Architecture" />
+<meta property="og:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)">
 <meta property="og:image" content="https://joehowarth.github.io/img/avatar.png" />
-<meta property="og:url" content="https://joehowarth.github.io/posts/dynamic-grand-strategy/" />
+<meta property="og:url" content="https://joehowarth.github.io/posts/architecture/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Joe Howarth" />
 
-  <meta name="twitter:title" content="Dynamic Grand Strategy" />
-  <meta name="twitter:description" content="Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while …">
+  <meta name="twitter:title" content="Architecture" />
+  <meta name="twitter:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
+Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map …">
   <meta name="twitter:image" content="https://joehowarth.github.io/img/avatar.png" />
   <meta name="twitter:card" content="summary" />
   <link href='https://joehowarth.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://joehowarth.github.io/img/avatar.png" />
   <meta name="twitter:image" content="https://joehowarth.github.io/img/avatar.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://joehowarth.github.io/posts/dynamic-grand-strategy/" />
+  <meta property="og:url" content="https://joehowarth.github.io/posts/architecture/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Joe Howarth" />
 
@@ -251,7 +256,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>Dynamic Grand Strategy</h1>
+                <h1>Architecture</h1>
               
               
               
@@ -259,11 +264,11 @@
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 1, 2018
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 16, 2019
   
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;245&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;450&nbsp;words
   
   
     &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
@@ -288,59 +293,99 @@
       <article role="main" class="blog-post">
         
 
-<p>Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria
-and even Total War each immerse the player in a simulated world.
-Which aspects of reality they focus on while abstracting (or ignoring) the rest,
-defines the experience and the game.
-Crusader Kings stands out as the only game attempting to model
-leaders&rsquo; intricasy and humanity.
-Victoria, through representing and tying populations&rsquo; plight or prosperity to events
-in the world abroad.
-Each bring a different perspective, yet all feel somewhat static in how they model
-their world.
-None besides Victoria even allow for private economy, shifting populations,
-founding new cities, changing provincial areas, shifting national ideas etc. etc.</p>
+<h1 id="architecture">Architecture</h1>
 
-<p>Inspired by the Europa Universalis 4 mod Meiou and Taxes and specifically Demian Sky,
-here I will explore creating a truly dynamic historical simulator and the
-technical challenges that come with it.</p>
+<p>High level overview of each module&rsquo;s purpose and function.</p>
 
-<p>The world should feel <em>alive</em>.</p>
-
-<h2 id="critical-elements">Critical Elements</h2>
-
-<ul>
-<li>Population</li>
-<li>Wealth and Trade</li>
-<li>Ideology, Religion and Culture</li>
-<li>Food</li>
-<li>Settlements</li>
-<li>Knowledge and Technology</li>
-<li>Leaders</li>
-<li>Government Structure</li>
-<li>Diplomacy and Politics</li>
-<li>Geography and Climate</li>
-</ul>
-
-<p>Eventually, all these elements should be linked together.
-Of course, doing any of these areas justice requires a monumental amount of work,
-so it&rsquo;s necessary to start with a smaller scope and focus.</p>
-
-<h2 id="initial-roadmap">Initial Roadmap</h2>
-
-<p>Here&rsquo;s roughly how I envision this project progressing</p>
+<h3 id="modules">Modules</h3>
 
 <ol>
-<li>Workable proceducal map generator</li>
-<li>Technical infrastructure MVP</li>
-<li>Initial settlement placement</li>
-<li>Population dynamics</li>
-<li>Trade and economic systems</li>
-<li>Re-evaluation</li>
+<li>Terrain Generation</li>
+<li>World Building / State Initialization</li>
+<li>Server
+
+<ol>
+<li>Simulation</li>
+<li>Networking</li>
+</ol></li>
+<li>Client
+
+<ol>
+<li>UI</li>
+<li>Graphical Map</li>
+</ol></li>
 </ol>
 
-<p>Next we&rsquo;ll take a closer look at map generation and then the infrastructure behind the
-simulation</p>
+<h3 id="terrain-generation">Terrain Generation</h3>
+
+<p>Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.).
+Equivalent of Comp Geom final project, but bigger and better!
+* Should use plate tectonics for world level, probably <em>external library</em>
+* Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail
+* Separate process
+  - Either CLI or GUI
+  - Probably long-running
+  - Choose from several candidates before proceeding to World Building
+  - Export data in common format for re-use (protobuf, json, &hellip;)</p>
+
+<h3 id="world-building-state-initialization">World Building / State Initialization</h3>
+
+<p>Take terrain &amp; climate and produce initial state of world before day0
+* Example data
+  - Agricultural: fertility, arable land, starting yield, area-under-cultivation,
+  - Population: starting cohorts, class mix, ++++
+  - Settlements: locations, size,
+  - Production: types of goods, production capability, etc.
+  - Trade: trade routes, commodity prices, flows etc.
+  - States / political entities
+* Really all non-terrain data that the simulation engine will use
+  must be created
+* Challenges
+  - Most parts of societies are inter-connected, which leads to the chicken
+    and egg problem of what causes what
+  - Can&rsquo;t have starting state wildly out of equilibrium (ie once simulation starts, it can&rsquo;t
+    change too rapidly at the start)</p>
+
+<h2 id="server">Server</h2>
+
+<p>Written in Rust, massively parallel, enables client and server to be on different machines.
+Later multiplayer support should be easily extended by &lsquo;simply&rsquo; supporting multiple clients.</p>
+
+<h4 id="simulation">Simulation</h4>
+
+<p>The &lsquo;dynamics&rsquo; transforming State A + Actions &ndash;&gt; State B. Consumes the initial state produced by
+<strong>World Building</strong>.
+* Needs a semi-realistic state to start from
+* Use specs ECS library to handle parallelism and as &lsquo;in-memory database&rsquo;</p>
+
+<h4 id="networking">Networking</h4>
+
+<ul>
+<li>Receives <strong>Subscription Requests</strong> from client for types of data and optionally specific keys/ranges</li>
+<li>For each subscription, find data that A) has been updated and B) is a subbed key, then send to client</li>
+<li>Volume should be relatively low
+
+<ul>
+<li>Large, frequently read data sent once to client once (think static mapmodes)</li>
+<li>Most data doesn&rsquo;t change every day (tick)</li>
+<li>Only send needed data</li>
+<li>Only player visible data will be sent (in game mode, debug is different)</li>
+</ul></li>
+<li>Ideally process Subs &gt;once per tick, maybe every 10ms of &lsquo;downtime&rsquo;</li>
+<li>Receive <strong>Actions</strong> from player through client, feed into common Actions pool with AIs</li>
+</ul>
+
+<h2 id="client">Client</h2>
+
+<h4 id="ui">UI</h4>
+
+<p>Use VueJS + Vuetify + Vuex to display data from server and send <strong>Actions</strong> and <strong>Subscription Requests</strong></p>
+
+<h4 id="graphical-map">Graphical Map</h4>
+
+<p>Use BabylonJS to wrap WebGL. Map is a single mesh where each triangle can be set to a specific color
+to graphically display &lsquo;map-modes&rsquo; like height, fertility, population etc. Currently a flat, 2D map
+for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move to 3D later</p>
 
 
         
@@ -355,49 +400,49 @@ simulation</p>
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f&amp;text=Dynamic%20Grand%20Strategy&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;text=Architecture&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//plus.google.com/share?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f" target="_blank" title="Share on Google Plus">
+        <a href="//plus.google.com/share?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f" target="_blank" title="Share on Google Plus">
           <i class="fab fa-google-plus"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f" target="_blank" title="Share on Facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f&amp;title=Dynamic%20Grand%20Strategy" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;title=Architecture" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f&amp;title=Dynamic%20Grand%20Strategy" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;title=Architecture" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f&amp;title=Dynamic%20Grand%20Strategy" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;title=Architecture" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2fdynamic-grand-strategy%2f&amp;description=Dynamic%20Grand%20Strategy" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;description=Architecture" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -415,13 +460,9 @@ simulation</p>
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://joehowarth.github.io/posts/mapgen_readme/" data-toggle="tooltip" data-placement="top" title="Map Generation Project">&larr; Previous Post</a>
+              <a href="https://joehowarth.github.io/posts/challengingtheplayer/" data-toggle="tooltip" data-placement="top" title="Challenging A Player">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://joehowarth.github.io/posts/populationdesign/" data-toggle="tooltip" data-placement="top" title="Designing the Population System">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

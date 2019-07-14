@@ -14,23 +14,77 @@
   </url>
   
   <url>
-    <loc>https://joehowarth.github.io/posts/dynamic-grand-strategy/</loc>
-    <lastmod>2018-11-01T16:29:11-04:00</lastmod>
+    <loc>https://joehowarth.github.io/posts/architecture/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://joehowarth.github.io/posts/</loc>
-    <lastmod>2018-11-01T16:29:11-04:00</lastmod>
+    <loc>https://joehowarth.github.io/posts/challengingtheplayer/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/tags/design-doc/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://joehowarth.github.io/categories/</loc>
+    <loc>https://joehowarth.github.io/tags/module/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/tags/population-simulation/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://joehowarth.github.io/tags/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/terraingenerator/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/worldbuilding/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/map-generation/</loc>
+    <lastmod>2018-11-01T20:21:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/populationdesign/</loc>
+    <lastmod>2018-11-01T16:29:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/dynamic-grand-strategy/</loc>
+    <lastmod>2018-11-01T16:29:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/mapgen_readme/</loc>
+    <lastmod>2018-11-01T16:29:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   

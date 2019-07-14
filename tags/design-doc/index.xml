@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Doc on Joe Howarth</title>
+    <link>https://joehowarth.github.io/tags/design-doc/</link>
+    <description>Recent content in Design Doc on Joe Howarth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
+    <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
+    <lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://joehowarth.github.io/tags/design-doc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World Building Module</title>
+      <link>https://joehowarth.github.io/posts/worldbuilding/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
+      <guid>https://joehowarth.github.io/posts/worldbuilding/</guid>
+      <description>World Building Module Purpose This module should take a series of map files produced by the Terrain Generator as input and construct a full initial state that the Simulation Engine can process. The map files should contain spatial data on terrain, geology, water systems and biomes. While some of these factors may eventually be simulated on the game&amp;rsquo;s timescale, most don&amp;rsquo;t change rapidly enough to justify the initial complexity and will likely initially be static.</description>
+    </item>
+    
+  </channel>
+</rss>
