@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
     <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
-    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://joehowarth.github.io/tags/design-doc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Designing the Population System</title>
+      <link>https://joehowarth.github.io/posts/populationdesign/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
+      <guid>https://joehowarth.github.io/posts/populationdesign/</guid>
+      <description>Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
+For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&amp;rsquo;t work for the nameless masses.</description>
+    </item>
     
     <item>
       <title>Architecture</title>
@@ -38,16 +48,6 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
       <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
       <guid>https://joehowarth.github.io/posts/worldbuilding/</guid>
       <description>World Building Module Purpose This module should take a series of map files produced by the Terrain Generator as input and construct a full initial state that the Simulation Engine can process. The map files should contain spatial data on terrain, geology, water systems and biomes. While some of these factors may eventually be simulated on the game&amp;rsquo;s timescale, most don&amp;rsquo;t change rapidly enough to justify the initial complexity and will likely initially be static.</description>
-    </item>
-    
-    <item>
-      <title>Designing the Population System</title>
-      <link>https://joehowarth.github.io/posts/populationdesign/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
-      <guid>https://joehowarth.github.io/posts/populationdesign/</guid>
-      <description>Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
-For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&amp;rsquo;t work for the nameless masses.</description>
     </item>
     
   </channel>

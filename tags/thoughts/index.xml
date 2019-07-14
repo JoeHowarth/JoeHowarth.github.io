@@ -23,6 +23,16 @@ So how can the player be challenged in such an environment? Here are a few avenu
     </item>
     
     <item>
+      <title>Designing the Population System</title>
+      <link>https://joehowarth.github.io/posts/populationdesign/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
+      <guid>https://joehowarth.github.io/posts/populationdesign/</guid>
+      <description>Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
+For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&amp;rsquo;t work for the nameless masses.</description>
+    </item>
+    
+    <item>
       <title>Map Generation</title>
       <link>https://joehowarth.github.io/posts/map-generation/</link>
       <pubDate>Thu, 01 Nov 2018 20:21:39 -0400</pubDate>
@@ -39,16 +49,6 @@ When starting this project, we could either use Earth as the source of geography
       <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
       <guid>https://joehowarth.github.io/posts/dynamic-grand-strategy/</guid>
       <description>Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders&amp;rsquo; intricasy and humanity. Victoria, through representing and tying populations&amp;rsquo; plight or prosperity to events in the world abroad.</description>
-    </item>
-    
-    <item>
-      <title>Designing the Population System</title>
-      <link>https://joehowarth.github.io/posts/populationdesign/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
-      <guid>https://joehowarth.github.io/posts/populationdesign/</guid>
-      <description>Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
-For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&amp;rsquo;t work for the nameless masses.</description>
     </item>
     
   </channel>

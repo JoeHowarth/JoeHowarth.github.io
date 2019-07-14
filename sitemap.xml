@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://joehowarth.github.io/about/</loc>
+    <loc>https://joehowarth.github.io/page/about/</loc>
     <lastmod>2019-07-13T17:54:27-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://joehowarth.github.io/</loc>
+    <lastmod>2019-07-13T17:54:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/page/</loc>
     <lastmod>2019-07-13T17:54:27-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -43,14 +49,19 @@
   </url>
   
   <url>
-    <loc>https://joehowarth.github.io/posts/architecture/</loc>
-    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
+    <loc>https://joehowarth.github.io/tags/design-doc/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://joehowarth.github.io/tags/design-doc/</loc>
+    <loc>https://joehowarth.github.io/posts/populationdesign/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joehowarth.github.io/posts/architecture/</loc>
     <lastmod>2019-04-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -111,10 +122,6 @@
   <url>
     <loc>https://joehowarth.github.io/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://joehowarth.github.io/posts/populationdesign/</loc>
   </url>
   
 </urlset>
