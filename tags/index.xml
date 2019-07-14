@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Joe Howarth</title>
-    <link>https://username.github.io/tags/</link>
+    <link>https://joehowarth.github.io/tags/</link>
     <description>Recent content in Tags on Joe Howarth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
     <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
     
-	<atom:link href="https://username.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joehowarth.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

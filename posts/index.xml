@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Joe Howarth</title>
-    <link>https://username.github.io/posts/</link>
+    <link>https://joehowarth.github.io/posts/</link>
     <description>Recent content in Posts on Joe Howarth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
     <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
     <lastBuildDate>Thu, 01 Nov 2018 16:29:11 -0400</lastBuildDate>
     
-	<atom:link href="https://username.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joehowarth.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dynamic Grand Strategy</title>
-      <link>https://username.github.io/posts/dynamic-grand-strategy/</link>
+      <link>https://joehowarth.github.io/posts/dynamic-grand-strategy/</link>
       <pubDate>Thu, 01 Nov 2018 16:29:11 -0400</pubDate>
       <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
-      <guid>https://username.github.io/posts/dynamic-grand-strategy/</guid>
+      <guid>https://joehowarth.github.io/posts/dynamic-grand-strategy/</guid>
       <description>Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria and even Total War each immerse the player in a simulated world. Which aspects of reality they focus on while abstracting (or ignoring) the rest, defines the experience and the game. Crusader Kings stands out as the only game attempting to model leaders&amp;rsquo; intricasy and humanity. Victoria, through representing and tying populations&amp;rsquo; plight or prosperity to events in the world abroad.</description>
     </item>
     
