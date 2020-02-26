@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
     <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
-    <lastBuildDate>Sat, 13 Jul 2019 17:54:27 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://joehowarth.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Understandable Simulations</title>
+      <link>https://joehowarth.github.io/posts/newpost/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
+      <guid>https://joehowarth.github.io/posts/newpost/</guid>
+      <description>Understandable Simulations Introduce Problem For those who don&amp;rsquo;t know, I&amp;rsquo;ve been working on historical, agent-based simulations for the past couple years. The nature of the project means there are lots of tensions. - Since it&amp;rsquo;s a system of feedback loops and aims to approximate reality, the models and coefficients relating the systems need lots of tweaking to get into reasonable ranges. - In order to get valid results, I need to run over 1000&amp;rsquo;s of years to ensure I&amp;rsquo;m not just seeing statistical noise - Since there are so many aspects of society and people, I need ways of calculating and exploring all sorts of trends, averages, expected values etc.</description>
+    </item>
     
     <item>
       <title>About</title>
