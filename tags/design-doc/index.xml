@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design Doc on Joe Howarth</title>
@@ -7,19 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>JosepheHowarth@gmail.com (Joe Howarth)</managingEditor>
     <webMaster>JosepheHowarth@gmail.com (Joe Howarth)</webMaster>
-    <lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://joehowarth.github.io/tags/design-doc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://joehowarth.github.io/tags/design-doc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Designing the Population System</title>
       <link>https://joehowarth.github.io/posts/populationdesign/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
       <guid>https://joehowarth.github.io/posts/populationdesign/</guid>
-      <description>Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including: * health, age, sex * occupation, skills * culture, religion, race * ideas/mindsets/attitudes, (imperfect) information * relationships, membership of groups * location
-For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&amp;rsquo;t work for the nameless masses.</description>
+      <description>Population Design Document How people are represented determines the flexibility, level of detail and performance of the above societal model. A vast number of attributes apply to people including:
+health, age, sex occupation, skills culture, religion, race ideas/mindsets/attitudes, (imperfect) information relationships, membership of groups location For influential people (ie. actors), all these factors can be modelled on an individual basis, however this approach clearly can&amp;rsquo;t work for the nameless masses. Therefore an important design decision is how to balance the trade-offs between detail, implementation flexibility + complexity and runtime performance.</description>
     </item>
     
     <item>
@@ -29,7 +25,8 @@ For influential people (ie. actors), all these factors can be modelled on an ind
       <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
       <guid>https://joehowarth.github.io/posts/architecture/</guid>
       <description>Architecture High level overview of each module&amp;rsquo;s purpose and function.
-Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &amp;lsquo;up-sample&amp;rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &amp;hellip;)</description>
+Modules Terrain Generation World Building / State Initialization Server 3. Simulation 4. Networking Client UI Graphical Map Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better!
+Should use plate tectonics for world level, probably external library Then &amp;lsquo;up-sample&amp;rsquo; using existing techniques to gain higher detail Separate process Either CLI or GUI Probably long-running Choose from several candidates before proceeding to World Building Export data in common format for re-use (protobuf, json, &amp;hellip;) World Building / State Initialization Take terrain &amp;amp; climate and produce initial state of world before day0</description>
     </item>
     
     <item>
@@ -38,7 +35,8 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
       <author>JosepheHowarth@gmail.com (Joe Howarth)</author>
       <guid>https://joehowarth.github.io/posts/terraingenerator/</guid>
-      <description>Terrain Generator Module This module will produce the base maps that the rest of the world is built on top of. This module should be standalone and therefore easily runnable and configurable without the rest of the project. This has several advantages: 1. Faster compilation times =&amp;gt; faster iteration feedback loop 2. Ability to generate many candidate maps and select the most interesting ones to build a full world with.</description>
+      <description>Terrain Generator Module This module will produce the base maps that the rest of the world is built on top of. This module should be standalone and therefore easily runnable and configurable without the rest of the project. This has several advantages:
+Faster compilation times =&amp;gt; faster iteration feedback loop Ability to generate many candidate maps and select the most interesting ones to build a full world with. Loading a world from disk is, generally, much faster than having to recompute it each time from a seed =&amp;gt; faster simulation load times.</description>
     </item>
     
     <item>

@@ -11,11 +11,13 @@
   <meta property="og:title" content="Architecture" />
   <meta name="twitter:title" content="Architecture" />
   <meta name="description" content="Architecture High level overview of each module&rsquo;s purpose and function.
-Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)">
+Modules Terrain Generation World Building / State Initialization Server 3. Simulation 4. Networking Client UI Graphical Map Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better!
+Should use plate tectonics for world level, probably external library Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail Separate process Either CLI or GUI Probably long-running Choose from several candidates before proceeding to World Building Export data in common format for re-use (protobuf, json, &hellip;) World Building / State Initialization Take terrain &amp; climate and produce initial state of world before day0">
   <meta property="og:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
-Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)">
+Modules Terrain Generation World Building / State Initialization Server 3. Simulation 4. Networking Client UI Graphical Map Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better!
+Should use plate tectonics for world level, probably external library Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail Separate process Either CLI or GUI Probably long-running Choose from several candidates before proceeding to World Building Export data in common format for re-use (protobuf, json, &hellip;) World Building / State Initialization Take terrain &amp; climate and produce initial state of world before day0">
   <meta name="twitter:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
-Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map …">
+Modules Terrain Generation World Building / State Initialization Server 3. Simulation 4. Networking Client UI Graphical …">
   <meta name="author" content="Joe Howarth"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -64,9 +66,9 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
     "name" : "Joe Howarth"
   },
   "headline": "Architecture",
-  "description" : "Architecture High level overview of each module\x26rsquo;s purpose and function.\nModules  Terrain Generation World Building \/ State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then \x26lsquo;up-sample\x26rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, \x26hellip;)",
+  "description" : "Architecture High level overview of each module\u0026rsquo;s purpose and function.\nModules Terrain Generation World Building \/ State Initialization Server 3. Simulation 4. Networking Client UI Graphical Map Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better!\nShould use plate tectonics for world level, probably external library Then \u0026lsquo;up-sample\u0026rsquo; using existing techniques to gain higher detail Separate process Either CLI or GUI Probably long-running Choose from several candidates before proceeding to World Building Export data in common format for re-use (protobuf, json, \u0026hellip;) World Building \/ State Initialization Take terrain \u0026amp; climate and produce initial state of world before day0",
   "inLanguage" : "en",
-  "wordCount":  450 ,
+  "wordCount":  432 ,
   "datePublished" : "2019-04-18T00:00:00",
   "dateModified" : "2019-04-18T00:00:00",
   "image" : "https:\/\/joehowarth.github.io\/img\/avatar.png",
@@ -87,7 +89,8 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
 
 <meta property="og:title" content="Architecture" />
 <meta property="og:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
-Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map   Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better! * Should use plate tectonics for world level, probably external library * Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail * Separate process - Either CLI or GUI - Probably long-running - Choose from several candidates before proceeding to World Building - Export data in common format for re-use (protobuf, json, &hellip;)">
+Modules Terrain Generation World Building / State Initialization Server 3. Simulation 4. Networking Client UI Graphical Map Terrain Generation Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.). Equivalent of Comp Geom final project, but bigger and better!
+Should use plate tectonics for world level, probably external library Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail Separate process Either CLI or GUI Probably long-running Choose from several candidates before proceeding to World Building Export data in common format for re-use (protobuf, json, &hellip;) World Building / State Initialization Take terrain &amp; climate and produce initial state of world before day0">
 <meta property="og:image" content="https://joehowarth.github.io/img/avatar.png" />
 <meta property="og:url" content="https://joehowarth.github.io/posts/architecture/" />
 <meta property="og:type" content="website" />
@@ -95,18 +98,22 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
 
   <meta name="twitter:title" content="Architecture" />
   <meta name="twitter:description" content="Architecture High level overview of each module&rsquo;s purpose and function.
-Modules  Terrain Generation World Building / State Initialization Server  Simulation Networking  Client  UI Graphical Map …">
+Modules Terrain Generation World Building / State Initialization Server 3. Simulation 4. Networking Client UI Graphical …">
   <meta name="twitter:image" content="https://joehowarth.github.io/img/avatar.png" />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@JoeHowarth20" />
+  <meta name="twitter:creator" content="@JoeHowarth20" />
   <link href='https://joehowarth.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://joehowarth.github.io/img/avatar.png" />
   <meta name="twitter:image" content="https://joehowarth.github.io/img/avatar.png" />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@JoeHowarth20" />
+  <meta name="twitter:creator" content="@JoeHowarth20" />
   <meta property="og:url" content="https://joehowarth.github.io/posts/architecture/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Joe Howarth" />
 
-  <meta name="generator" content="Hugo 0.58.3" />
+  <meta name="generator" content="Hugo 0.104.3" />
   <link rel="alternate" href="https://joehowarth.github.io/index.xml" type="application/rss+xml" title="Joe Howarth"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://joehowarth.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -135,7 +142,7 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
         
           
             <li>
-              <a title="Blog" href="/">Blog</a>
+              <a title="Blog" href="/posts/">Blog</a>
             </li>
           
         
@@ -260,11 +267,11 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on April 18, 2019
+  <i class="fas fa-calendar"></i>&nbsp;
   
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;450&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;432&nbsp;words
   
   
     &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Joe Howarth
@@ -287,101 +294,93 @@ Modules  Terrain Generation World Building / State Initialization Server  Simula
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<h1 id="architecture">Architecture</h1>
-
+        <h1 id="architecture">Architecture</h1>
 <p>High level overview of each module&rsquo;s purpose and function.</p>
-
 <h3 id="modules">Modules</h3>
-
 <ol>
 <li>Terrain Generation</li>
 <li>World Building / State Initialization</li>
 <li>Server
-
-<ol>
-<li>Simulation</li>
-<li>Networking</li>
-</ol></li>
+3. Simulation
+4. Networking</li>
 <li>Client
-
 <ol>
 <li>UI</li>
 <li>Graphical Map</li>
-</ol></li>
 </ol>
-
+</li>
+</ol>
 <h3 id="terrain-generation">Terrain Generation</h3>
-
 <p>Constructs semi-random continents, islands, heightmap, biomes, raw resources (metal deposits etc.).
-Equivalent of Comp Geom final project, but bigger and better!
-* Should use plate tectonics for world level, probably <em>external library</em>
-* Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail
-* Separate process
-  - Either CLI or GUI
-  - Probably long-running
-  - Choose from several candidates before proceeding to World Building
-  - Export data in common format for re-use (protobuf, json, &hellip;)</p>
-
-<h3 id="world-building-state-initialization">World Building / State Initialization</h3>
-
-<p>Take terrain &amp; climate and produce initial state of world before day0
-* Example data
-  - Agricultural: fertility, arable land, starting yield, area-under-cultivation,
-  - Population: starting cohorts, class mix, ++++
-  - Settlements: locations, size,
-  - Production: types of goods, production capability, etc.
-  - Trade: trade routes, commodity prices, flows etc.
-  - States / political entities
-* Really all non-terrain data that the simulation engine will use
-  must be created
-* Challenges
-  - Most parts of societies are inter-connected, which leads to the chicken
-    and egg problem of what causes what
-  - Can&rsquo;t have starting state wildly out of equilibrium (ie once simulation starts, it can&rsquo;t
-    change too rapidly at the start)</p>
-
+Equivalent of Comp Geom final project, but bigger and better!</p>
+<ul>
+<li>Should use plate tectonics for world level, probably <em>external library</em></li>
+<li>Then &lsquo;up-sample&rsquo; using existing techniques to gain higher detail</li>
+<li>Separate process
+<ul>
+<li>Either CLI or GUI</li>
+<li>Probably long-running</li>
+<li>Choose from several candidates before proceeding to World Building</li>
+<li>Export data in common format for re-use (protobuf, json, &hellip;)</li>
+</ul>
+</li>
+</ul>
+<h3 id="world-building--state-initialization">World Building / State Initialization</h3>
+<p>Take terrain &amp; climate and produce initial state of world before day0</p>
+<ul>
+<li>Example data
+<ul>
+<li>Agricultural: fertility, arable land, starting yield, area-under-cultivation,</li>
+<li>Population: starting cohorts, class mix, ++++</li>
+<li>Settlements: locations, size,</li>
+<li>Production: types of goods, production capability, etc.</li>
+<li>Trade: trade routes, commodity prices, flows etc.</li>
+<li>States / political entities</li>
+</ul>
+</li>
+<li>Really all non-terrain data that the simulation engine will use
+must be created</li>
+<li>Challenges
+<ul>
+<li>Most parts of societies are inter-connected, which leads to the chicken
+and egg problem of what causes what</li>
+<li>Can&rsquo;t have starting state wildly out of equilibrium (ie once simulation starts, it can&rsquo;t
+change too rapidly at the start)</li>
+</ul>
+</li>
+</ul>
 <h2 id="server">Server</h2>
-
 <p>Written in Rust, massively parallel, enables client and server to be on different machines.
 Later multiplayer support should be easily extended by &lsquo;simply&rsquo; supporting multiple clients.</p>
-
 <h4 id="simulation">Simulation</h4>
-
 <p>The &lsquo;dynamics&rsquo; transforming State A + Actions &ndash;&gt; State B. Consumes the initial state produced by
-<strong>World Building</strong>.
-* Needs a semi-realistic state to start from
-* Use specs ECS library to handle parallelism and as &lsquo;in-memory database&rsquo;</p>
-
+<strong>World Building</strong>.</p>
+<ul>
+<li>Needs a semi-realistic state to start from</li>
+<li>Use specs ECS library to handle parallelism and as &lsquo;in-memory database&rsquo;</li>
+</ul>
 <h4 id="networking">Networking</h4>
-
 <ul>
 <li>Receives <strong>Subscription Requests</strong> from client for types of data and optionally specific keys/ranges</li>
 <li>For each subscription, find data that A) has been updated and B) is a subbed key, then send to client</li>
 <li>Volume should be relatively low
-
 <ul>
 <li>Large, frequently read data sent once to client once (think static mapmodes)</li>
 <li>Most data doesn&rsquo;t change every day (tick)</li>
 <li>Only send needed data</li>
 <li>Only player visible data will be sent (in game mode, debug is different)</li>
-</ul></li>
+</ul>
+</li>
 <li>Ideally process Subs &gt;once per tick, maybe every 10ms of &lsquo;downtime&rsquo;</li>
 <li>Receive <strong>Actions</strong> from player through client, feed into common Actions pool with AIs</li>
 </ul>
-
 <h2 id="client">Client</h2>
-
 <h4 id="ui">UI</h4>
-
 <p>Use VueJS + Vuetify + Vuex to display data from server and send <strong>Actions</strong> and <strong>Subscription Requests</strong></p>
-
 <h4 id="graphical-map">Graphical Map</h4>
-
 <p>Use BabylonJS to wrap WebGL. Map is a single mesh where each triangle can be set to a specific color
 to graphically display &lsquo;map-modes&rsquo; like height, fertility, population etc. Currently a flat, 2D map
-for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move to 3D later</p>
+for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move to 3D later.</p>
 
 
         
@@ -404,7 +403,7 @@ for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move 
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;text=Architecture&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fjoehowarth.github.io%2fposts%2farchitecture%2f&amp;text=Architecture&amp;via=JoeHowarth20" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -515,6 +514,14 @@ for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move 
                   </span>
                 </a>
               </li>
+              <li>
+                <a href="https://twitter.com/JoeHowarth20" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
           
           <li>
             <a href="" title="RSS">
@@ -535,7 +542,7 @@ for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move 
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2020
+            2019
           
 
           
@@ -545,7 +552,7 @@ for easier camera, &lsquo;clicking&rsquo; and just generally easier. Could move 
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.58.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          <a href="http://gohugo.io">Hugo v0.104.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
           
         </p>
       </div>
